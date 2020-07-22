@@ -28,5 +28,5 @@ int main ( )
     {
         printf("%lf is a rational num\n", num);
     }
-
+    return 0;
 }
