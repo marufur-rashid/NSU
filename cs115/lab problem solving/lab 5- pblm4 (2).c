@@ -2,7 +2,7 @@
 int main()
 {
   int i,j,n;
-  printf("The number of lines in the pattern is user-input:");
+  printf("pattern is user-input:");
   scanf("%d",&n);
   for(i=0;i<n;i++)
 {
@@ -13,4 +13,5 @@ int main()
   printf("\n");
  }
 }
+
 
