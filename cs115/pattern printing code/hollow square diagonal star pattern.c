@@ -2,8 +2,8 @@
 
 int main()
 {
-    int i, j, N;
-    printf("Enter number of rows: ");
+    int i, j, N; //  i,j,n holo integer type variable
+    printf("Enter number of rows: "); // user input
     scanf("%d", &N);
     for(i=1; i<=N; i++)
     {
@@ -14,14 +14,14 @@ int main()
              */
             if(i==1 || i==N || j==1 || j==N || i==j || j==(N - i + 1))
             {
-                printf("*");
+                printf("*");// for print star
             }
             else
             {
-                printf(" ");
+                printf(" "); // print spaces
             }
         }
-        printf("\n");
+        printf("\n"); // move to the new line
     }
 
     return 0;

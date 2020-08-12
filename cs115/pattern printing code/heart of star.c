@@ -25,20 +25,20 @@ int main()
 
         for(j=1; j<=i; j++)
         {
-            printf("*");
+            printf("*"); // print star
         }
 
         for(j=1; j<=n-i; j++)
         {
-            printf(" ");
+            printf(" "); // print space
         }
 
         for(j=1; j<=i; j++)
         {
-            printf("*");
+            printf("*"); // print star
         }
 
-        printf("\n");
+        printf("\n");// move to the new line
     }
 
     // Prints lower triangular part of the pattern
@@ -46,7 +46,7 @@ int main()
     {
         for(j=i; j<n; j++)
         {
-            printf(" ");
+            printf(" "); // for spaces
         }
 
         // Print the name
@@ -72,7 +72,7 @@ int main()
             }
         }
 
-        printf("\n");
+        printf("\n"); // move to the new line
     }
 
     return 0;

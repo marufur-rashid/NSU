@@ -2,9 +2,10 @@
 
 int main()
 {
-    int i, j, N, columns;
-    printf("Enter number of columns:");
-    scanf("%d",&N);
+    int i, j, N, columns; //i,j,n holo integer type variable
+
+    printf("Enter number of columns:"); //number print korte hove
+    scanf("%d",&N); // user theke input korte hobe
 
     columns=1;
 
@@ -17,13 +18,13 @@ int main()
 
         if(i < N)
         {
-            columns++;
+            columns++; // increment number of colums per row for upper part
         }
         else
         {
-            columns--;
+            columns--; // decrement number of colums per row lower part
         }
-        printf("\n");
+        printf("\n"); // for next line
     }
 
     return 0;
